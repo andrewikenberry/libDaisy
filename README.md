@@ -1,6 +1,6 @@
 ![](https://github.com/electro-smith/libdaisy/blob/master/resources/assets/banner.png)
 
-libDaisy is a hardware abstraction library for the [Daisy Embedded Audio Platform.](https://www.electro-smith.com/daisy) 
+## libDaisy is a hardware abstraction library for the [Daisy Embedded Audio Platform.](https://www.electro-smith.com/daisy) 
 
 It  provides easy access to things such as GPIO, MIDI, USB communication, and more.
 
@@ -62,7 +62,7 @@ Also included is a core/ folder containing:
 - a linker script for defining the sections of memory used by the firmware
 - core files for starting the hardware (system_stm32h7xx.c, startup_stm32h750xx.s, etc.)
 
-#### daisy.h
+## daisy.h
 
 The base-level include file. This is all you need to include to create your own custom hardware that uses libDaisy.
 
